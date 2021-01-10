@@ -1,6 +1,6 @@
 # Docker file for building Django application of Krypted 
 # Usage: docker build --build-arg VERSION=master ./docker/app/ 
-FROM python:3.6
+FROM python:3.9
 
 RUN apt-get update --no-install-recommends && \
     apt-get install --no-install-recommends -y \

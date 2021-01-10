@@ -1,16 +1,18 @@
-celery==4.3.1
-redis==3.5.3
-Django==2.2.13
-django-crispy-forms==1.7.2
+Django==3.1.5
+django-notifications-hq==1.6.0 # notification backend
+django-cookie-law==2.0.4 # GDPR
+django-crispy-forms==1.10.0 # bootstrap forms 
 django-singleton-admin-2==1.1.0
-django-shell-plus==1.1.7
 django-countries==5.5 # for country fields in UserInfo()
-django-celery-beat==1.6.0
-flower==0.9.3
+# development & deployment
 mkdocs==1.1.2
 mkdocs-material==6.1.5
 mkdocs-material-extensions==1.0.1
-django-notifications-hq==1.6.0
-django-cookie-law==2.0.4
-django-redis==4.12.1
+django-shell-plus==1.1.7
 django-extensions==3.1.0
+# celery task management
+celery==5.0.5
+django-celery-beat==2.1.0
+django-redis==4.12.1
+redis==3.5.3
+flower==0.9.7
